@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lR | grep -E ^d | cut -d " " -f 9 | rm  *.js
+rm `find . -iname '*.js' -type f`
