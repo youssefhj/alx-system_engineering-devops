@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -laR | cut -d " " -f 7,9 | grep 0 | cut -d " " -f 2
+find . -size 0
